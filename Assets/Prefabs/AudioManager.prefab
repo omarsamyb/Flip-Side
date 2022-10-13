@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &607037416453773181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607037416453773179}
+  - component: {fileID: 607037416453773178}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &607037416453773179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607037416453773181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &607037416453773178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607037416453773181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f71e6dcf9c58a42acce6e39b444afd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: GameplayMusic
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 0f489ab0b09692f4092c903e62cbf6ef, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    isPlaying: 0
+  - name: JumpSFX
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: ffabf5aae1a516749b9d20f88fe312c4, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  - name: SwitchColorSFX
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 24d295c5e10f275469422a83eac3666f, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  - name: CorrectCoinSFX
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 95de6fcbdfe42e94bbd102f13f938190, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  - name: CollisionSFX
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: cee6e50c39fe5cb4493957a4c6d95e26, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  - name: HealthOrbSFX
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: d4e5442711434cf47b2f245b17b85e5f, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  - name: MenuMusic
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 953917bb824971546a0378126f2d8868, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    isPlaying: 0
+  - name: SwitchLane
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 42d452424b881394ea1ffe88888914c4, type: 3}
+    mixerGroup: {fileID: 0}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    isPlaying: 0
+  isMuted: 0
